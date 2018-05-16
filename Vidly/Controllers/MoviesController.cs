@@ -16,5 +16,10 @@ namespace Vidly.Controllers
 
             return View(movie);
         }
+
+        public ActionResult Edit(int id)
+        {
+            return Content("id=" + id);
+        }
     }
 }
